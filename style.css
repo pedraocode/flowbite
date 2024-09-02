@@ -1,0 +1,26 @@
+.caixas {
+display: flex;
+flex-direction: column;
+max-width: 245px;
+background-color: white;
+border-radius: 6px;
+}
+.caixa {
+    display: flex;
+    flex-direction: column;
+    max-width: 215px;
+    background-color: white;
+    border-radius: 6px;
+
+}
+
+body{
+    background-color: dimgray;
+}
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+svg {
+    max-width: 25px;
+}
