@@ -2,25 +2,41 @@
 display: flex;
 flex-direction: column;
 max-width: 245px;
-background-color: white;
+background-color: rgb(31 41 55);
 border-radius: 6px;
+border: 1px solid rgb(55 65 81);
 }
 .caixa {
     display: flex;
     flex-direction: column;
-    max-width: 215px;
-    background-color: white;
+    max-width: 245px;
+   background-color:  rgb(31 41 55);
     border-radius: 6px;
-
+    border: 1px solid rgb(59 130 246); 
 }
 
 body{
-    background-color: dimgray;
+    background-color: rgb(17 24 39);
 }
 .boxes {
     display: flex;
     justify-content: space-around;
+
 }
 svg {
     max-width: 25px;
+}
+.c {
+  background-color:   rgb(75 85 99);
+  color: white;
+}
+.cs {
+background-color: rgb(29 78 216);
+color: white;
+}
+h1 {
+    color: white;
+}
+h3 {
+    color: white;
 }
