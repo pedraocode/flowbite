@@ -145,3 +145,27 @@
   .centralized-box button {
       margin: 10px 0;
   }
+
+  @media (max-width: 1368px) {
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.centralized-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.centralized-box h3,
+.centralized-box h1,
+.centralized-box p,
+.centralized-box a,
+.centralized-box button {
+  margin: 10px 0;
+}
